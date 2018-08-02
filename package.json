@@ -1,27 +1,39 @@
 {
-  "name": "angular-query-builder",
-  "version": "1.3.0",
-  "description": "Query builder as JSON from angular directive",
-  "main": "index.js",
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --progress",
-    "build": "cross-env NODE_ENV=production webpack -p --colors"
+  "_from": "angular-query-builder",
+  "_id": "angular-query-builder@1.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Iy0/7mBJFOf/JbVxMzjU8nRA2Rg=",
+  "_location": "/angular-query-builder",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "angular-query-builder",
+    "name": "angular-query-builder",
+    "escapedName": "angular-query-builder",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tiste/angular-query-builder.git"
-  },
-  "keywords": [
-    "angular",
-    "module",
-    "query-builder"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "Baptiste Lecocq <hello@tiste.io> (http://tiste.io)",
-  "license": "MIT",
+  "_resolved": "https://registry.npmjs.org/angular-query-builder/-/angular-query-builder-1.3.0.tgz",
+  "_shasum": "232d3fee604914e7ff25b5713338d4f27440d918",
+  "_spec": "angular-query-builder",
+  "_where": "C:\\Users\\Admin\\Documents\\Projetos\\Safety\\frontend-final",
+  "author": {
+    "name": "Baptiste Lecocq",
+    "email": "hello@tiste.io",
+    "url": "http://tiste.io"
+  },
   "bugs": {
     "url": "https://github.com/tiste/angular-query-builder/issues"
   },
-  "homepage": "https://github.com/tiste/angular-query-builder#readme",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Query builder as JSON from angular directive",
   "devDependencies": {
     "babel-core": "6.10.4",
     "babel-loader": "6.2.4",
@@ -41,5 +53,23 @@
     "underscore": "1.8.3",
     "webpack": "1.13.1",
     "webpack-dev-server": "1.14.1"
-  }
+  },
+  "homepage": "https://github.com/tiste/angular-query-builder#readme",
+  "keywords": [
+    "angular",
+    "module",
+    "query-builder"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "angular-query-builder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiste/angular-query-builder.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack -p --colors",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --progress"
+  },
+  "version": "1.3.0"
 }

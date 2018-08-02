@@ -22,8 +22,9 @@ Simply define an options object:
 $scope.options = {
     fields: [
         { name: 'Firstname', value: 'firstname' },
-        { name: 'Birthdate', value: 'birthdate', attrs: { type: 'date' } },
-        { name: 'City', value: 'city', attrs: { type: 'text', 'required': true } },
+        { name: 'Lastname', value: 'lastname' },
+        { name: 'Birthdate', value: 'birthdate' },
+        { name: 'City', value: 'city' },
         { name: 'Country', value: 'country' },
     ],
 
