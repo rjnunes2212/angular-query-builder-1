@@ -1,2 +1,2 @@
-require('./dist/angular-query-builder');
+require('./src/angular-query-builder');
 module.exports = 'angular-query-builder';
