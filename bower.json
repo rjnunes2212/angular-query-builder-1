@@ -1,0 +1,19 @@
+{
+  "name": "md-angular-query-builder",
+  "description": "Query builder as JSON from angular directive",
+  "main": "index.js",
+  "authors": [
+    "Rodrigo Nunes"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "module",
+    "query-builder"
+  ],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jQuery-QueryBuilder": "^2.5.2"
+  }
+}
